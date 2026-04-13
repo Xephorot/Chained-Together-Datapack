@@ -32,3 +32,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Particles may briefly connect to residual entities if `test/setup` is run multiple times without `test/teardown` first — use `/function ct:admin/cleanup` to fix
 - Pull direction uses `facing feet` which works best on relatively flat terrain; steep slopes may cause minor visual artifacts
 - Tension calculation uses Chebyshev distance (max of |dx|, |dy|, |dz|) rather than Euclidean distance, so diagonal distances may feel slightly different
+- When players are at different elevations and one moves away, the distant player may be pulled upward until both players are closer together

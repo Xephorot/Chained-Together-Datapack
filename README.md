@@ -48,12 +48,34 @@ If you are alone and want to test the mechanics with an armor stand dummy:
 
 ## ✨ Key Features
 
-- **Chain physics** — Real-time tension based on distance
-- **Elastic pull** — Pulled back when exceeding max distance  
-- **Respawn teleport** — Entire cluster teleports to respawned player
-- **Dimension teleport** — Entire cluster follows through Nether/End portals
-- **Tension HUD** — Live actionbar showing tension % and distance
-- **Visual chain** — Particle effects connecting linked members
+### Core Physics
+- **Real-time chain physics** — Tension calculated every tick using Chebyshev distance to nearest linked member
+- **Speed resistance** — Gradual slowdown as tension increases (50%–100% of max distance)
+- **Elastic pull** — Physically pulled back toward your partner when exceeding max distance
+- **Collision-aware** — Pull verifies block passability to prevent clipping into terrain
+
+### Damage & Survival
+- **Tension damage** — Hunger at moderate tension, direct damage at critical levels (>3× max distance)
+- **Slowness effect** — Movement slowed when chain is critically strained
+- **Anti-sinking** — Y-position preserved during pull to prevent sinking into ground
+
+### Visual & UI
+- **Tension HUD** — Live actionbar showing tension percentage and distance in blocks
+- **Color-coded warnings** — Green → Yellow → Red → Dark Red (critical)
+- **Particle chain** — Enchant particles connecting linked members
+- **Through-wall visibility** — Blue glowing outline on all linked players (team-based)
+- **Sound feedback** — Chain step sounds with volume based on tension
+
+### Respawn & Portals
+- **Respawn teleport** — When a player dies, entire cluster teleports to their spawn after 2s delay
+- **Dimension teleport** — When traversing Nether/End portals, cluster follows automatically
+- **Safety effects** — Slow falling + resistance applied after teleport to prevent fall damage
+- **Chunk forceload** — Test dummies stay loaded across dimensions for reliable testing
+
+### Customization
+- **Configurable** — Max distance, resistance strength, elastic toggle via data storage
+- **Test mode** — Single-player testing with armor stand dummy
+- **Admin commands** — `setup`, `create_cluster`, `cleanup`, `set_physics`
 
 ---
 
