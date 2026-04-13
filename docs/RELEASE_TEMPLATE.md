@@ -60,18 +60,3 @@ Creates a dummy armor stand to test chain mechanics solo.
 ## Full Changelog
 See [CHANGELOG.md](CHANGELOG.md) for the complete history.
 ```
-
----
-
-## How to create a release
-
-1. Update version string in `pack.mcmeta` description
-2. Add new entry to `CHANGELOG.md`
-3. Zip the `Chained-Together/` folder (the folder itself must be the root inside the zip)
-4. Go to GitHub → Releases → Draft a new release
-5. Create tag: `v{VERSION}` (e.g. `v0.1.0-beta`)
-6. Title: `v{VERSION} — Chained Together Datapack for MC {MC_VERSION}`
-7. Paste the release body from the template above
-8. Attach the `.zip` file
-9. Check "Pre-release" if it's alpha/beta
-10. Publish
