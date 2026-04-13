@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:void_air",
+    "minecraft:cave_air",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:snow",
+    "minecraft:vine",
+    "minecraft:glow_lichen",
+    "minecraft:sugar_cane",
+    "minecraft:cobweb",
+    "minecraft:structure_void",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:soul_torch",
+    "minecraft:soul_wall_torch",
+    "minecraft:redstone_torch",
+    "minecraft:redstone_wall_torch",
+    "minecraft:tripwire",
+    "minecraft:redstone_wire",
+    "minecraft:lever"
+  ]
+}

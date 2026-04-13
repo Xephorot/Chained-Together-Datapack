@@ -1,0 +1,15 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Minecraft world data (don't commit saves)
+saves/
+
+# Windsurf plans
+.windsurf/
