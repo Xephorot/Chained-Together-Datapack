@@ -2,6 +2,8 @@
 
 A datapack for **Minecraft Java Edition** that physically chains 2–4 players together. Walk too far from your partner and you'll feel the pull — literally.
 
+> **Inspired by** the game **Chained Together**
+
 > **Version**: `0.1.0-beta` | **Minecraft**: Java Edition 26.1 – 26.1.2 | **Pack Format**: 71
 
 ---
